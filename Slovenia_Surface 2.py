@@ -1,6 +1,7 @@
 # Slovenia Surface Grasshopper Component
 # Inputs: num_contours (int)
 # Outputs: surface (NURBS surface), contours (list)
+# Plan
 
 import math
 import cmath
@@ -69,3 +70,6 @@ contours = []
 # Output variables
 # surface = surface
 # contours = contours
+## we make flate area 10m by 10m
+## bulit grid of points and for each point calculate height using the polynomial function
+## it turnes grid of points into a NURBS surface
