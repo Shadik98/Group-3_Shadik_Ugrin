@@ -73,3 +73,4 @@ contours = []
 ## we make flate area 10m by 10m
 ## bulit grid of points and for each point calculate height using the polynomial function
 ## it turnes grid of points into a NURBS surface
+##
